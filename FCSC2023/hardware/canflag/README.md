@@ -75,7 +75,7 @@ e20 = "5"
 e42 = ""
 i34 = '27d'
 e52 = "2f60c"
-i6 = "f0a2ea5e233"
+i6  = "f0a2ea5e233"
 i30 = "ee3cd919184a"
 i4  = ""
 e22 = "f6b47b9f"
@@ -116,7 +116,7 @@ i48 = "529f74d8b04f8"
 e6  = ""
 ```
 
-And then with the following code I add all of the string together and sort them to get the flag !
+And then with the following code I add all of the string together and sort them to get the flag
 
 ```python
 a = ""
@@ -134,8 +134,5 @@ print(a)
 
 We then obtain the following flag: 
 
+`FCSC{aa9edf0a2ea5e233bdc3fc49535a09cc055a456df7db4ab8e5f6b47b9f603d6a1171d20b15458b7b44ac1ffbeb9ca92ac1d8aee3cd919184a27d6afd2dd4f01c50b0e57be6a1560a78e682556c529f74d8b04f8e660ce71f6e21013d1f2482f60ce1732e5983dbc14f37020b5a439e60c6797295c3cc58757bdeaa85a96eef37}
 `
-FCSC{aa9edf0a2ea5e233bdc3fc49535a09cc055a456df7db4ab8e5f6b47b9f603d6a1171d20b15458b7b44ac1ffbeb9ca92ac1d8aee3cd919184a27d6afd2dd4f01c50b0e57be6a1560a78e682556c529f74d8b04f8e660ce71f6e21013d1f2482f60ce1732e5983dbc14f37020b5a439e60c6797295c3cc58757bdeaa85a96eef37}
-`
-
-![flag.jpg](image/flag.jpg)
