@@ -1,0 +1,81 @@
+# All of the data because scapy
+
+e56 = ""
+e30 = "1d8a"
+e38 = "2"
+i20 = ""
+e32 = ""
+i54 = "d"
+i62 = ""
+i66 = ""
+e8  = ""
+i40 = "01c50b0"
+i46 = ""
+i28 = "ffbeb9ca92ac"
+e68 = "a96eef37}"
+i18 = ""
+i60 = "797295c3cc5875"
+i2 = "{aa9e"
+i22 = "603d6a11"
+e60 = ""
+e44 = "a78e68255"
+e48 = "c"
+i8 =  ""
+e10 = ""
+i14 = "8e"
+e54 = ""
+e20 = "5"
+e42 = ""
+i34 = '27d'
+e52 = "2f60c"
+i6 = "f0a2ea5e233"
+i30 = "ee3cd919184a"
+i4 = ""
+e22 = "f6b47b9f"
+i42 = "e57be6a1560"
+e50 = "e660ce71f6e210"
+e16 = ""
+e36 = ""
+i58 = "39e60c6"
+i38 = "dd4f"
+i36 = "6afd"
+i12 = "456df7db4"
+e34 = ''
+i50 = "13d1f248"
+i24 = "b4"
+e4 =  "d"
+i16 = ""
+e12 = "cc055a"
+e28 = "1"
+i62 = "7bdeaa"
+e26 = ""
+i56 = "bc14f37020b5a4"
+i10 = "bdc3fc49535a09"
+e24 = "71d20b15458b7"
+e46 = ""
+e18 = ""
+e64 = ""
+e14 = "ab"
+i32 = ""
+i44 = "6"
+i26 = "4ac"
+i52 = "e1732e5983"
+e66 = "85"
+e2  = "FCSC"
+i64 = ""
+e40 = ""
+e58 = ""
+i48 = "529f74d8b04f8"
+e6  = ""
+
+# The algorithme to add and sort all of the data
+
+a = ""
+for i in range(2, 70, 2):
+    var_name = "e" + str(i)
+    if var_name in locals() and locals()[var_name] is not None:
+        a += locals()[var_name]
+    var_name = "i" + str(i)
+    if var_name in locals() and locals()[var_name] is not None:
+        a += locals()[var_name]
+print(a)
