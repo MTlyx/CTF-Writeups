@@ -60,7 +60,7 @@ for i in range(27):
 
 We have this result :
 
-`0 JQHGY{Qbs_x1x_S0o_nl13x_n0_f00E_Nb3l3}
+```
 1 KRIHZ{Rct_y1y_T0p_om13y_o0_g00F_Oc3m3}
 2 LSJIA{Sdu_z1z_U0q_pn13z_p0_h00G_Pd3n3}
 3 MTKJB{Tev_a1a_V0r_qo13a_q0_i00H_Qe3o3}
@@ -86,7 +86,8 @@ We have this result :
 23 GNEDV{Nyp_u1u_P0l_ki13u_k0_c00B_Ky3i3}
 24 HOFEW{Ozq_v1v_Q0m_lj13v_l0_d00C_Lz3j3}
 25 IPGFX{Par_w1w_R0n_mk13w_m0_e00D_Ma3k3}
-26 JQHGY{Qbs_x1x_S0o_nl13x_n0_f00E_Nb3l3}`
+26 JQHGY{Qbs_x1x_S0o_nl13x_n0_f00E_Nb3l3}
+```
 
 We can see a typical flag : PWNME{..}
 
