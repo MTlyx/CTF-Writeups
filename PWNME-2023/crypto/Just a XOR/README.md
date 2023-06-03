@@ -32,7 +32,7 @@ There are four main properties we should consider when we solve challenges using
 
 ![XOR.png](image/XOR.png)
 
-The main things are going to use is :
+The main things we are going to use are:
 
 ```
 A = (A ^ B) ^ B 
@@ -44,17 +44,17 @@ With this we can try to get the key of the XORING method used with the letter fr
 
 The goal will be to find the SECRET variable in the main python script
 
-A huge information : we know the variable is beetween 0 and 0x2600 and there is 16 letters like this
+A huge piece of information : we know the variable is between 0 and 0x2600 and there are 16 letters like this
 
 ```python
 random.randint(0,0x2600)) for i in range(16)
 ```
 
-So we are going to try XORING each number for each characters (if the letters isn't a `*`) in the intercepted message and compare it to the message encrypted
+So we are going to try XORING each number for each character (if the letters isn't a `*`) in the intercepted message and compare it to the encrypted message.
 
 And then save the XOR key in a variable in the good position
 
-Don't forget to put %16 in your loop because the main code reuse the SECRET variable :
+Don't forget to put %16 in your loop because the main code reuses the SECRET variable :
 
 ```python
 cycle(SECRET)
