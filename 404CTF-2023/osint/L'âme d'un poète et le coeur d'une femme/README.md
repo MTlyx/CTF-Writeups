@@ -2,7 +2,7 @@
 
 ## The scenario
 
-![[enonce 1.png]]
+![](enonce 1.png)
 
 We just need to find information on Louise Colet
 
@@ -13,4 +13,5 @@ and on is profil, details about louise there is the flag in plain text
 https://www.facebook.com/profile.php?id=100091643933854&sk=about_details
 
 ## Flag
+
 404CTF{4_mon_ch3r_4mi_v1ctor}

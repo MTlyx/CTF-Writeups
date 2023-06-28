@@ -1,7 +1,8 @@
 # 404CTF 2023: Rcette
 
 ## The scenario
-![[404CTF-2023/crypto/Enonce.png]]
+
+![](Enonce.png)
 
 In this challenge we need to do 4 think
 
@@ -33,7 +34,7 @@ for i in range(len(b)):
         c += b[i]*nombre
         nombre = 0
         passage = 0
-  
+
 print(c)
 ```
 
@@ -53,4 +54,5 @@ tlyx@InspironNeon:~$ echo "1b^aR<(;4/1hgTC1NZtl1LFWKDIHFRI/" | base85 --decode
 And there is the flag !
 
 ## Flag
+
 ``404CTF{M4igr3t_D3_c4naRd}``
